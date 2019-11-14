@@ -1,0 +1,16 @@
+li{
+    margin:1%;
+}
+h1{
+   text-align: center;
+}
+.bgdiv{
+    display: flex;
+    justify-content:space-around;
+
+}li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+
+}

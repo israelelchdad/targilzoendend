@@ -1,0 +1,14 @@
+.bigdiv{
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+}.user{
+    font-size: 20px;
+    margin: 1%;
+}.logo{
+    margin: 2%;
+}app-nav{
+    width: 45%;
+    padding-top:5% ;
+    font-size: 22px;
+}

@@ -1,0 +1,23 @@
+<h1>welcom to the panel of bists</h1>
+<div class="bgdiv">
+   <div>
+       <h2>our list</h2>
+
+       <ul>
+
+        <!-- <li *ngFor= "let s of bistsrvc.beasts" >{{s.name}}</li> -->
+        <li (click) ="cardto(0)">{{bistsrvc.beasts[0].name}}</li>
+        <li (click) ="cardto(1)">{{bistsrvc.beasts[1].name}}</li>
+        <li (click) ="cardto(2)">{{bistsrvc.beasts[2].name}}</li>
+        <li (click) ="cardto(3)">{{bistsrvc.beasts[3].name}}</li>
+        <li (click) ="cardto(4)">{{bistsrvc.beasts[4].name}}</li>
+        
+
+       </ul>
+
+    </div>
+    <div>
+        <app-bists-card></app-bists-card>
+    </div>
+
+</div>

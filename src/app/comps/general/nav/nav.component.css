@@ -1,0 +1,12 @@
+.ul{
+    display: flex;
+}
+li{
+    margin: 5%;
+}
+li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+
+}

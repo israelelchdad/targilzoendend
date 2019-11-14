@@ -1,0 +1,11 @@
+.bigdiv{
+    display: flex;
+    justify-content: space-around;
+}h1{
+    text-align: center;
+}li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
